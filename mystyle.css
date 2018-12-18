@@ -1,0 +1,44 @@
+.pavadinimas{
+    text-align: center;
+    font-size: 80pt;
+    font-style: Bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    vertical-align: middle;
+}
+.pavadinimas2{
+    text-align: left;
+    font-size:80pt;
+    font-style: bold;
+    color: black;
+    background-color:#ECE8CB  ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+table, td{
+    border: 2px solid white;
+    text-align: center;
+    vertical-align: middle;
+}
+table{
+    height:100%;
+    width: 100%;
+}
+#grad{
+    background: rgb(221, 217, 179);
+}
+#vardas1{
+    text-align: right;
+    vertical-align: bottom;
+    font-size: 10pt;
+}
+.list1{
+    font-size: 10pt;
+    text-align: left;
+    background-color:#ECE8CB  ;
+}
+#psl{
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 10pt;
+}
+
