@@ -1,0 +1,16 @@
+.div{
+    margin: auto;
+    height: 300px;
+    width: 900px;
+    background-color: black;
+}
+.float{
+    margin: 10px;
+    background-color:White;
+    text-align: center;
+    float: left;
+    color:0, 0, 0;
+    width: 280px;
+    height: 280px;
+    font-size: 45pt;
+}
