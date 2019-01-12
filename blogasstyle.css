@@ -53,7 +53,8 @@
     margin-top: 0px;
     margin-bottom: 0px
     color: #000;
-    font: 400 50px/1.2 'Nixie One', Georgia, serif;
+    font-family: "Courier New";
+    font-size: 50px;
 }
 #naujausi{
     width: 205px;
@@ -63,9 +64,11 @@
     margin-top: 10px;
     margin-bottom: 0px
     color: #000;
-    font: 400 40px/1.2 'Nixie One', Georgia, serif;
+    
     margin-left: 240px;
     background-color: #F5F4F0;
+    font-family: "Courier New";
+    font-size: 50px;
 }
 #foto{
     margin-right: 300px;
@@ -100,7 +103,8 @@
 #infotxt{
     color: rgb(51, 50, 50);
     text-align:center;
-    font: 400 20px/1.2 'Nixie One', Georgia, serif;
+    font-family: "Courier New";
+    font-size: 50px;
 }
 .tekstai{
     float: left;
@@ -119,19 +123,22 @@
     float:left;
 }
 .divdata{
-    font: 400 20px/1.2 'Nixie One', Georgia, serif;
+   
     color: rgb(51, 50, 50);
     float: right;
     margin-right: 20px;
     width:1px;
     word-wrap: break-word;
+    font-family: "Courier New";
+    font-size: 50px;
 }
 .divpoem{
     margin-top:22px;
-    font: 400 15px/1.2 'Nixie One', Georgia, serif;
     align:left;
     color: rgb(51, 50, 50);
     font-style: italic;
+    font-family: "Courier New";
+    font-size: 50px;
 }
 .atskyrimas{
         margin: auto;
@@ -148,8 +155,10 @@
     margin: auto;
     margin-top: 10px;
     margin-bottom: 150px;
-    font: 400 200px/1.2 'Nixie One', Georgia, serif;
+
     color: #000;
+    font-family: "Courier New";
+    font-size: 50px;
 }
 .welcome{
     font-size: 50pt;
@@ -217,7 +226,8 @@ a:visited{
     float:left;
 }
 .poemheader{
-    font: 400 90px/1.2 'Nixie One', Georgia, serif;
+    font-family: "Courier New";
+    font-size: 50px;
 }
 .poempavb{
     text-align:center;
@@ -229,7 +239,7 @@ a:visited{
     width: 300px;
 }
 .poem{
-    font: 400 25px/1.2 'Nixie One', Georgia, serif;
+    
     text-align:left;
     font-style: italic;
     line-height: 40px;
@@ -237,4 +247,6 @@ a:visited{
     width: 600px;
     background-color:#F5F4F0;
     margin:auto;
+    font-family: "Courier New";
+    font-size: 50px;
 }
