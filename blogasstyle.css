@@ -44,7 +44,6 @@
     font: 400 120px/1 'Great Vibes', Helvetica, sans-serif;
     color: #000;
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
-    font-weight:200;
 }
 #header2{
     width: 850px;
@@ -232,7 +231,6 @@ a:visited{
 .poem{
     font: 400 25px/1.2 'Nixie One', Georgia, serif;
     text-align:left;
-    font-weight: 200;
     font-style: italic;
     line-height: 40px;
     height: 700px;
