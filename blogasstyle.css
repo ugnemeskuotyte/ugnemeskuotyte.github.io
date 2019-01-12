@@ -1,6 +1,6 @@
 
 @font-face{
-    font-family: FontyFont;
+    font-family: fontyfont;
     src: url(greatvibes-regular[1].otf);
 }
 #div{
@@ -40,6 +40,7 @@
     
 }
 #header{
+    font-family: fontyfont;
     width: 850px;
     height: 100px;
     text-align: center;
@@ -49,7 +50,7 @@
     color: #000;
     dont-size: 50px;
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
-    font-family: FontyFont;
+    
     
 }
 #header2{
