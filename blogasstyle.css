@@ -59,6 +59,7 @@
     font-size: 120px;
 }
 #header2{
+    font-family: fonter;
     width: 850px;
     height: 100px;
     text-align: center;
@@ -66,10 +67,11 @@
     margin-top: 0px;
     margin-bottom: 0px
     color: #000;
-    font-family: fonter;
+    
     font-size: 40px;
 }
 #naujausi{
+   font-family: fonter; 
     width: 205px;
     height: 47px;
     text-align: left;
@@ -80,7 +82,7 @@
     
     margin-left: 240px;
     background-color: #F5F4F0;
-    font-family: fonter;
+    
     font-size: 41px;
 }
 #foto{
@@ -114,9 +116,10 @@
     background-color:#F5F4F0 ;
 }
 #infotxt{
+    font-family: fonter;
     color: rgb(51, 50, 50);
     text-align:center;
-    font-family: fonter;
+    
     font-size: 20px;
 }
 .tekstai{
@@ -137,20 +140,22 @@
 }
 .divdata{
    
+    font-family: fonter;
     color: rgb(51, 50, 50);
     float: right;
     margin-right: 20px;
     width:1px;
     word-wrap: break-word;
-    font-family: "fonter;
+    
     font-size: 20px;
 }
 .divpoem{
+    font-family: fonter;
     margin-top:22px;
     align:left;
     color: rgb(51, 50, 50);
     font-style: italic;
-    font-family: fonter;
+    
     font-size: 15px;
 }
 .atskyrimas{
@@ -162,6 +167,7 @@
         background-color:#F5F4F0;
 }
 #apie{
+    font-family: fonter;
     width: 850px;
     height: 100px;
     text-align: center;
@@ -170,7 +176,7 @@
     margin-bottom: 150px;
 
     color: #000;
-    font-family: fonter;
+    
     font-size: 200px;
 }
 .welcome{
