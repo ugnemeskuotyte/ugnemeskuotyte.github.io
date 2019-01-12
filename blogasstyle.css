@@ -7,6 +7,10 @@
     font-family: fonty;
     src: url(great-vibes-v5-latin-regular.woff);
 }
+@font-face{
+    font-family: fonter;
+    src: url(NixieOne.ttf);
+}
 #div{
     margin: auto;
     margin-top: 30px;
@@ -62,7 +66,7 @@
     margin-top: 0px;
     margin-bottom: 0px
     color: #000;
-    font-family: "Courier New";
+    font-family: fonter;
     font-size: 40px;
 }
 #naujausi{
@@ -76,7 +80,7 @@
     
     margin-left: 240px;
     background-color: #F5F4F0;
-    font-family: "Courier New";
+    font-family: fonter;
     font-size: 41px;
 }
 #foto{
@@ -112,7 +116,7 @@
 #infotxt{
     color: rgb(51, 50, 50);
     text-align:center;
-    font-family: "Courier New";
+    font-family: fonter;
     font-size: 20px;
 }
 .tekstai{
@@ -138,7 +142,7 @@
     margin-right: 20px;
     width:1px;
     word-wrap: break-word;
-    font-family: "Courier New";
+    font-family: "fonter;
     font-size: 20px;
 }
 .divpoem{
@@ -146,7 +150,7 @@
     align:left;
     color: rgb(51, 50, 50);
     font-style: italic;
-    font-family: "Courier New";
+    font-family: fonter;
     font-size: 15px;
 }
 .atskyrimas{
@@ -166,7 +170,7 @@
     margin-bottom: 150px;
 
     color: #000;
-    font-family: "Courier New";
+    font-family: fonter;
     font-size: 200px;
 }
 .welcome{
@@ -235,7 +239,7 @@ a:visited{
     float:left;
 }
 .poemheader{
-    font-family: "Courier New";
+    font-family: fonter;
     font-size: 90px;
 }
 .poempavb{
@@ -256,6 +260,6 @@ a:visited{
     width: 600px;
     background-color:#F5F4F0;
     margin:auto;
-    font-family: "Courier New";
+    font-family: fonter;
     font-size: 20px;
 }
