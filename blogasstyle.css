@@ -3,6 +3,10 @@
     font-family: fontyfont;
     src: url(GreatVibes-Regular.ttf);
 }
+@font-face{
+    font-family: fonty;
+    src: url(great-vibes-v5-latin-regular.woff);
+}
 #div{
     margin: auto;
     margin-top: 30px;
