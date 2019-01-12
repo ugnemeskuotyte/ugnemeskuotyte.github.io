@@ -1,0 +1,239 @@
+#div{
+    margin: auto;
+    margin-top: 30px;
+    height: 10px;
+    width: 1100px;
+    background-color: black;
+}
+
+.divtrumpi{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    height: 10px;
+    width: 850px;
+    background-color: black;
+}
+#divdartrumpesni{
+    margin:auto;
+    margin-top:150px;
+    margin-bottom: 0px;
+    margin-left: 315px;
+    height: 10px;
+    width: 50px;
+    background-color: black;
+}
+#divdartrumpesni2{
+    margin:auto;
+    margin-top:10px;
+    margin-bottom: 0px;
+    margin-left: 315px;
+    height: 10px;
+    width: 50px;
+    background-color: black;
+}
+#header{
+    width: 850px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font: 400 120px/1 'Great Vibes', Helvetica, sans-serif;
+    color: #000;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+#header2{
+    width: 850px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px
+    color: #000;
+    font: 400 50px/1.2 'Nixie One', Georgia, serif;
+}
+#naujausi{
+    width: 205px;
+    height: 47px;
+    text-align: left;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0px
+    color: #000;
+    font: 400 40px/1.2 'Nixie One', Georgia, serif;
+    margin-left: 240px;
+    background-color: #F5F4F0;
+}
+#foto{
+    margin-right: 300px;
+    margin-top: 120px;
+    float: right;
+}
+#baltitrumpi{
+    margin: auto;
+    margin-top:100px;
+    margin-right: 250px;
+    height: 10px;
+    width: 300px;
+    background-color:#F5F4F0;
+}
+#baltitrumpi1{
+    margin: auto;
+    margin-top:10px;
+    margin-right: 250px;
+    height: 10px;
+    width: 300px;
+    background-color:#F5F4F0;
+}
+#info{
+    margin: auto;
+    margin-top:10px;
+    margin-right: 285px;
+    margin-bottom: 0px;
+    height: 300px;
+    width: 230px;
+    background-color:#F5F4F0 ;
+}
+#infotxt{
+    color: rgb(51, 50, 50);
+    text-align:center;
+    font: 400 20px/1.2 'Nixie One', Georgia, serif;
+}
+.tekstai{
+    float: left;
+    margin:auto;
+    margin-left: 240px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    width:600px;
+    height:250px;
+    background-color: #F5F4F0;
+}
+.divfoto{
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    float:left;
+}
+.divdata{
+    font: 400 20px/1.2 'Nixie One', Georgia, serif;
+    color: rgb(51, 50, 50);
+    float: right;
+    margin-right: 20px;
+    width:1px;
+    word-wrap: break-word;
+}
+.divpoem{
+    margin-top:22px;
+    font: 400 15px/1.2 'Nixie One', Georgia, serif;
+    align:left;
+    color: rgb(51, 50, 50);
+    font-style: italic;
+}
+.atskyrimas{
+        margin: auto;
+        margin-left: 240px;
+        height: 10px;
+        width: 600px;
+        float: left;
+        background-color:#F5F4F0;
+}
+#apie{
+    width: 850px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    font: 400 200px/1.2 'Nixie One', Georgia, serif;
+    color: #000;
+}
+.welcome{
+    font-size: 50pt;
+    margin: auto;
+    margin-left: 230px;
+    margin-top: 50px;
+    margin-right: 230px;
+    font: 400 50px/1.6 'Imprima', Verdana, Helvetica, sans-serif;
+}
+a:hover{
+    font-size: 120%;
+    color: black;
+}
+a:link{
+    text-decoration:none;
+    color:rgb(51, 50, 50);
+}
+a:visited{
+    color: rgb(51, 50, 50);
+    text-decoration: none;
+}
+.back{
+    font: 400 30px/1.6 'Imprima', Verdana, Helvetica, sans-serif;
+    margin-top: 300px;
+    text-align:center;
+}
+
+.poemfonas{
+    text-align:center;
+    background-color:#F5F4F0;
+    margin:auto;
+    width: 650px;
+    height: 850px;
+}
+.poembruksnysb{
+    text-align:center;
+    background-color:#F5F4F0;
+    margin:auto;
+    margin-bottom:200px;
+    margin-top: 20px;
+    width: 700px;
+    height: 10px;
+}
+.poembruksnyst{
+    text-align:center;
+    background-color:#F5F4F0;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+    width: 700px;
+    height: 10px;
+}
+.poempav{
+    text-align:center;
+    background-color:#F5F4F0;
+    margin:auto;
+    width: 600px;
+    height: 200px;
+    margin-top: 40px;
+}
+.poemdivfoto{
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-right: 10px;
+    float:left;
+}
+.poemheader{
+    font: 400 90px/1.2 'Nixie One', Georgia, serif;
+}
+.poempavb{
+    text-align:center;
+    background-color:#F3F0E9;
+    margin:auto;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 10px;
+    width: 300px;
+}
+.poem{
+    font: 400 25px/1.2 'Nixie One', Georgia, serif;
+    text-align:left;
+
+    font-style: italic;
+    line-height: 40px;
+    height: 700px;
+    width: 600px;
+    background-color:#F5F4F0;
+    margin:auto;
+}
