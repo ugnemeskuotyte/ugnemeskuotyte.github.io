@@ -197,7 +197,8 @@ a:visited{
     text-decoration: none;
 }
 .back{
-    font: 400 30px/1.6 'Imprima', Verdana, Helvetica, sans-serif;
+    font-family: 'Courier New';
+    font-size: 30px;
     margin-top: 300px;
     text-align:center;
 }
