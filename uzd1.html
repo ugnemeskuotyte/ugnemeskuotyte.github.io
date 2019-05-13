@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body bgcolor="#F3F0E9">
+    <h1> <div align="center"><font face="verdana">Uždavinukai</font></div> </h1> <br/>
+    <p><div align="center">332-255=<input id="v1"><button id="b1"onclick=kzk()>Tikrinti</button></div></p> <br/>
+    <p><div align="center">857-779=<input id="v2"><button id="b2" onclick=kzk1()> Tikrinti</button></div></p><br/>
+    <p><div align="center">527*3=<input id="v3"><button id="b3" onclick=kzk2()> Tikrinti</button></div></p><br/>
+    <p><div align="center">546*5=<input id="v4"><button id="b4" onclick=kzk3()> Tikrinti</button></div></p><br/>
+    <p><div align="center">628+483+326=<input id="v5"><button id="b5"onclick=kzk4()> Tikrinti</button></div></p><br/>
+    <script>
+        document.getElementById("v1").innerHTML="YAY";
+        function kzk()
+        {
+            var x=document.getElementById("v1").value;
+            if(x==77)
+            document.getElementById("b1").innerHTML = "TAIP";
+            else document.getElementById("b1").innerHTML = "NE"
+        }
+        function kzk1()
+        {
+            var x=document.getElementById("v2").value;
+            if(x==78)
+            document.getElementById("b2").innerHTML = "TAIP";
+            else document.getElementById("b2").innerHTML = "NE"
+        }
+        function kzk2()
+        {
+            var x=document.getElementById("v3").value;
+            if(x==1581)
+            document.getElementById("b3").innerHTML = "TAIP";
+            else document.getElementById("b3").innerHTML = "NE"
+        }
+        function kzk3()
+        {
+            var x=document.getElementById("v4").value;
+            if(x==2730)
+            document.getElementById("b4").innerHTML = "TAIP";
+            else document.getElementById("b4").innerHTML = "NE"
+        }
+        function kzk4()
+        {
+            var x=document.getElementById("v5").value;
+            if(x==1437)
+            document.getElementById("b5").innerHTML = "TAIP";
+            else document.getElementById("b5").innerHTML = "NE"
+        }
+    </script>
+</body>
+</html>
