@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body bgcolor="#F3F0E9">
+    <h1> <div align="center"><font face="verdana">Uždavinukai</font></div> </h1> <br/>
+    <p><div align="center"><img id="hei" src="fox.gif" height=50>332-255=<input id="v1"><button id="b1"onclick=kzk()>Tikrinti</button></div></p> <br/>
+    <p><div align="center"><img id="hei2" src="fox.gif" height=50>857-779=<input id="v2"><button id="b2" onclick=kzk1()> Tikrinti</button></div></p><br/>
+    <p><div align="center"><img id="hei3" src="fox.gif" height=50>527*3=<input id="v3"><button id="b3" onclick=kzk2()> Tikrinti</button></div></p><br/>
+    <p><div align="center"><img id="hei4" src="fox.gif" height=50>546*5=<input id="v4"><button id="b4" onclick=kzk3()> Tikrinti</button></div></p><br/>
+    <p><div align="center"><img id="hei5" src="fox.gif" height=50>628+483+326=<input id="v5"><button id="b5"onclick=kzk4()> Tikrinti</button></div></p><br/>
+
+    <script>
+        document.getElementById("v1").innerHTML="YAY";
+        document.getElementById("hei").style.visibility="hidden";
+        document.getElementById("hei2").style.visibility="hidden";
+        document.getElementById("hei3").style.visibility="hidden";
+        document.getElementById("hei4").style.visibility="hidden";
+        document.getElementById("hei5").style.visibility="hidden";
+        function kzk()
+        {
+            var x=document.getElementById("v1").value;
+            if(x==77)
+            {
+                document.getElementById("b1").innerHTML = "TAIP";
+                document.getElementById("hei").style.visibility="visible";
+            }
+            else 
+            {
+                document.getElementById("b1").innerHTML = "NE";
+                document.getElementById("hei").style.visibility="hidden";
+            }
+        }
+        function kzk1()
+        {
+            var x=document.getElementById("v2").value;
+            if(x==78)
+            {
+            document.getElementById("b2").innerHTML = "TAIP";
+            document.getElementById("hei2").style.visibility="visible";
+            }
+            else 
+            {
+            document.getElementById("b2").innerHTML = "NE";
+            document.getElementById("hei2").style.visibility="hidden";
+            }
+        }
+        function kzk2()
+        {
+            var x=document.getElementById("v3").value;
+            if(x==1581)
+            {
+            document.getElementById("hei3").style.visibility="visible";
+            document.getElementById("b3").innerHTML = "TAIP";
+            }
+            else 
+            {
+            document.getElementById("b3").innerHTML = "NE";
+            document.getElementById("hei3").style.visibility="hidden";
+            }
+        }
+        function kzk3()
+        {
+            var x=document.getElementById("v4").value;
+            if(x==2730)
+            {
+            document.getElementById("hei4").style.visibility="visible";
+            document.getElementById("b4").innerHTML = "TAIP";
+            }
+            else 
+            {
+            document.getElementById("b4").innerHTML = "NE";
+            document.getElementById("hei4").style.visibility="hidden";
+            }
+        }
+        function kzk4()
+        {
+            var x=document.getElementById("v5").value;
+            if(x==1437)
+            {
+            document.getElementById("hei5").style.visibility="visible";
+            document.getElementById("b5").innerHTML = "TAIP";
+            }
+            else 
+            {
+            document.getElementById("b5").innerHTML = "NE";
+            document.getElementById("hei5").style.visibility="hidden";
+            }
+        }
+    </script>
+</body>
+</html>
